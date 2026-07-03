@@ -22,7 +22,7 @@ The intended deployment model is:
    - Set the app root directory to `/` if the GitHub repo root is `dub-lite`.
    - Set the live branch to `main`.
    - Keep automatic rollouts enabled.
-   - Select the recommended Node.js runtime.
+   - Select Node.js 24 if Firebase offers it as the recommended runtime.
    - Finish and deploy.
 
 You can also create the backend from the Firebase CLI if needed:
