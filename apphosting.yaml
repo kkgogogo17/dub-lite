@@ -1,0 +1,9 @@
+# Firebase App Hosting runtime settings for the Dub Lite Next.js app.
+# The backend itself is created in Firebase and connected to this GitHub repo.
+runConfig:
+  minInstances: 0
+  maxInstances: 1
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+
